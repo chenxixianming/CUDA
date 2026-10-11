@@ -1,0 +1,1 @@
+nvcc -O3 -std=c++17 -arch=native -Xcompiler /O2 -Xcompiler /Zc:preprocessor conv2d.cu -o conv2d.exe

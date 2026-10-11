@@ -1,0 +1,562 @@
+========== N = 65536, max_blocks = 256 ==========
+Version:   stride
+Rounds:    2
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.015241 ms
+Batch 2 average: 0.014019 ms
+Batch 3 average: 0.013336 ms
+Batch 4 average: 0.013564 ms
+Batch 5 average: 0.016404 ms
+Median reduction time: 0.014019 ms
+
+Version:   shuffle
+Rounds:    2
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.014418 ms
+Batch 2 average: 0.011950 ms
+Batch 3 average: 0.012104 ms
+Batch 4 average: 0.013561 ms
+Batch 5 average: 0.013872 ms
+Median reduction time: 0.013561 ms
+
+Stride median time:  0.014019 ms
+Shuffle median time: 0.013561 ms
+Shuffle speedup (stride / shuffle): 1.033776x
+
+========== N = 65536, max_blocks = 1024 ==========
+Version:   stride
+Rounds:    2
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.013469 ms
+Batch 2 average: 0.013315 ms
+Batch 3 average: 0.014711 ms
+Batch 4 average: 0.014479 ms
+Batch 5 average: 0.013223 ms
+Median reduction time: 0.013469 ms
+
+Version:   shuffle
+Rounds:    2
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.015134 ms
+Batch 2 average: 0.011895 ms
+Batch 3 average: 0.013251 ms
+Batch 4 average: 0.011700 ms
+Batch 5 average: 0.012175 ms
+Median reduction time: 0.012175 ms
+
+Stride median time:  0.013469 ms
+Shuffle median time: 0.012175 ms
+Shuffle speedup (stride / shuffle): 1.106319x
+
+========== N = 65536, max_blocks = 4096 ==========
+Version:   stride
+Rounds:    2
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.012742 ms
+Batch 2 average: 0.013834 ms
+Batch 3 average: 0.013281 ms
+Batch 4 average: 0.015121 ms
+Batch 5 average: 0.013100 ms
+Median reduction time: 0.013281 ms
+
+Version:   shuffle
+Rounds:    2
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.012977 ms
+Batch 2 average: 0.011964 ms
+Batch 3 average: 0.013947 ms
+Batch 4 average: 0.012814 ms
+Batch 5 average: 0.012001 ms
+Median reduction time: 0.012814 ms
+
+Stride median time:  0.013281 ms
+Shuffle median time: 0.012814 ms
+Shuffle speedup (stride / shuffle): 1.036494x
+
+========== N = 262144, max_blocks = 256 ==========
+Version:   stride
+Rounds:    2
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.016046 ms
+Batch 2 average: 0.013698 ms
+Batch 3 average: 0.013251 ms
+Batch 4 average: 0.014343 ms
+Batch 5 average: 0.015821 ms
+Median reduction time: 0.014343 ms
+
+Version:   shuffle
+Rounds:    2
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.014578 ms
+Batch 2 average: 0.013609 ms
+Batch 3 average: 0.015309 ms
+Batch 4 average: 0.015189 ms
+Batch 5 average: 0.012244 ms
+Median reduction time: 0.014578 ms
+
+Stride median time:  0.014343 ms
+Shuffle median time: 0.014578 ms
+Shuffle speedup (stride / shuffle): 0.983844x
+
+========== N = 262144, max_blocks = 1024 ==========
+Version:   stride
+Rounds:    3
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.018609 ms
+Batch 2 average: 0.022156 ms
+Batch 3 average: 0.017824 ms
+Batch 4 average: 0.021302 ms
+Batch 5 average: 0.019217 ms
+Median reduction time: 0.019217 ms
+
+Version:   shuffle
+Rounds:    3
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.019681 ms
+Batch 2 average: 0.022753 ms
+Batch 3 average: 0.019701 ms
+Batch 4 average: 0.022378 ms
+Batch 5 average: 0.019558 ms
+Median reduction time: 0.019701 ms
+
+Stride median time:  0.019217 ms
+Shuffle median time: 0.019701 ms
+Shuffle speedup (stride / shuffle): 0.975414x
+
+========== N = 262144, max_blocks = 4096 ==========
+Version:   stride
+Rounds:    3
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.019319 ms
+Batch 2 average: 0.023654 ms
+Batch 3 average: 0.020193 ms
+Batch 4 average: 0.020401 ms
+Batch 5 average: 0.020527 ms
+Median reduction time: 0.020401 ms
+
+Version:   shuffle
+Rounds:    3
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.022132 ms
+Batch 2 average: 0.020265 ms
+Batch 3 average: 0.018373 ms
+Batch 4 average: 0.021565 ms
+Batch 5 average: 0.020446 ms
+Median reduction time: 0.020446 ms
+
+Stride median time:  0.020401 ms
+Shuffle median time: 0.020446 ms
+Shuffle speedup (stride / shuffle): 0.997830x
+
+========== N = 1048576, max_blocks = 256 ==========
+Version:   stride
+Rounds:    2
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.013005 ms
+Batch 2 average: 0.015147 ms
+Batch 3 average: 0.014264 ms
+Batch 4 average: 0.012227 ms
+Batch 5 average: 0.013920 ms
+Median reduction time: 0.013920 ms
+
+Version:   shuffle
+Rounds:    2
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.013005 ms
+Batch 2 average: 0.016142 ms
+Batch 3 average: 0.014380 ms
+Batch 4 average: 0.015435 ms
+Batch 5 average: 0.012957 ms
+Median reduction time: 0.014380 ms
+
+Stride median time:  0.013920 ms
+Shuffle median time: 0.014380 ms
+Shuffle speedup (stride / shuffle): 0.967956x
+
+========== N = 1048576, max_blocks = 1024 ==========
+Version:   stride
+Rounds:    3
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.022200 ms
+Batch 2 average: 0.021917 ms
+Batch 3 average: 0.020347 ms
+Batch 4 average: 0.019909 ms
+Batch 5 average: 0.014288 ms
+Median reduction time: 0.020347 ms
+
+Version:   shuffle
+Rounds:    3
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.020585 ms
+Batch 2 average: 0.024774 ms
+Batch 3 average: 0.019490 ms
+Batch 4 average: 0.021968 ms
+Batch 5 average: 0.020753 ms
+Median reduction time: 0.020753 ms
+
+Stride median time:  0.020347 ms
+Shuffle median time: 0.020753 ms
+Shuffle speedup (stride / shuffle): 0.980422x
+
+========== N = 1048576, max_blocks = 4096 ==========
+Version:   stride
+Rounds:    3
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.032997 ms
+Batch 2 average: 0.029812 ms
+Batch 3 average: 0.039557 ms
+Batch 4 average: 0.033341 ms
+Batch 5 average: 0.030150 ms
+Median reduction time: 0.032997 ms
+
+Version:   shuffle
+Rounds:    3
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.027761 ms
+Batch 2 average: 0.027010 ms
+Batch 3 average: 0.022764 ms
+Batch 4 average: 0.020248 ms
+Batch 5 average: 0.026583 ms
+Median reduction time: 0.026583 ms
+
+Stride median time:  0.032997 ms
+Shuffle median time: 0.026583 ms
+Shuffle speedup (stride / shuffle): 1.241277x
+
+========== N = 4194304, max_blocks = 256 ==========
+Version:   stride
+Rounds:    2
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.020692 ms
+Batch 2 average: 0.018558 ms
+Batch 3 average: 0.017097 ms
+Batch 4 average: 0.019596 ms
+Batch 5 average: 0.018248 ms
+Median reduction time: 0.018558 ms
+
+Version:   shuffle
+Rounds:    2
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.016312 ms
+Batch 2 average: 0.019217 ms
+Batch 3 average: 0.017551 ms
+Batch 4 average: 0.018762 ms
+Batch 5 average: 0.024003 ms
+Median reduction time: 0.018762 ms
+
+Stride median time:  0.018558 ms
+Shuffle median time: 0.018762 ms
+Shuffle speedup (stride / shuffle): 0.989118x
+
+========== N = 4194304, max_blocks = 1024 ==========
+Version:   stride
+Rounds:    3
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.019367 ms
+Batch 2 average: 0.022883 ms
+Batch 3 average: 0.020350 ms
+Batch 4 average: 0.021309 ms
+Batch 5 average: 0.019476 ms
+Median reduction time: 0.020350 ms
+
+Version:   shuffle
+Rounds:    3
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.019275 ms
+Batch 2 average: 0.022193 ms
+Batch 3 average: 0.019094 ms
+Batch 4 average: 0.017964 ms
+Batch 5 average: 0.021709 ms
+Median reduction time: 0.019275 ms
+
+Stride median time:  0.020350 ms
+Shuffle median time: 0.019275 ms
+Shuffle speedup (stride / shuffle): 1.055782x
+
+========== N = 4194304, max_blocks = 4096 ==========
+Version:   stride
+Rounds:    3
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.035693 ms
+Batch 2 average: 0.033133 ms
+Batch 3 average: 0.034611 ms
+Batch 4 average: 0.035751 ms
+Batch 5 average: 0.032177 ms
+Median reduction time: 0.034611 ms
+
+Version:   shuffle
+Rounds:    3
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.024760 ms
+Batch 2 average: 0.022142 ms
+Batch 3 average: 0.026532 ms
+Batch 4 average: 0.019871 ms
+Batch 5 average: 0.020043 ms
+Median reduction time: 0.022142 ms
+
+Stride median time:  0.034611 ms
+Shuffle median time: 0.022142 ms
+Shuffle speedup (stride / shuffle): 1.563107x
+
+========== N = 16777216, max_blocks = 256 ==========
+Version:   stride
+Rounds:    2
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.307535 ms
+Batch 2 average: 0.302824 ms
+Batch 3 average: 0.294233 ms
+Batch 4 average: 0.301780 ms
+Batch 5 average: 0.302482 ms
+Median reduction time: 0.302482 ms
+
+Version:   shuffle
+Rounds:    2
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.297622 ms
+Batch 2 average: 0.297329 ms
+Batch 3 average: 0.299817 ms
+Batch 4 average: 0.300790 ms
+Batch 5 average: 0.302772 ms
+Median reduction time: 0.299817 ms
+
+Stride median time:  0.302482 ms
+Shuffle median time: 0.299817 ms
+Shuffle speedup (stride / shuffle): 1.008889x
+
+========== N = 16777216, max_blocks = 1024 ==========
+Version:   stride
+Rounds:    3
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.302418 ms
+Batch 2 average: 0.301049 ms
+Batch 3 average: 0.303070 ms
+Batch 4 average: 0.302271 ms
+Batch 5 average: 0.304353 ms
+Median reduction time: 0.302418 ms
+
+Version:   shuffle
+Rounds:    3
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.303899 ms
+Batch 2 average: 0.303244 ms
+Batch 3 average: 0.303475 ms
+Batch 4 average: 0.297257 ms
+Batch 5 average: 0.302503 ms
+Median reduction time: 0.303244 ms
+
+Stride median time:  0.302418 ms
+Shuffle median time: 0.303244 ms
+Shuffle speedup (stride / shuffle): 0.997276x
+
+========== N = 16777216, max_blocks = 4096 ==========
+Version:   stride
+Rounds:    3
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.303531 ms
+Batch 2 average: 0.300581 ms
+Batch 3 average: 0.307050 ms
+Batch 4 average: 0.300715 ms
+Batch 5 average: 0.301131 ms
+Median reduction time: 0.301131 ms
+
+Version:   shuffle
+Rounds:    3
+CPU sum:   -8.000000
+GPU sum:   -8.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 0.300387 ms
+Batch 2 average: 0.304944 ms
+Batch 3 average: 0.303275 ms
+Batch 4 average: 0.304637 ms
+Batch 5 average: 0.300838 ms
+Median reduction time: 0.303275 ms
+
+Stride median time:  0.301131 ms
+Shuffle median time: 0.303275 ms
+Shuffle speedup (stride / shuffle): 0.992932x
+
+========== N = 67108864, max_blocks = 256 ==========
+Version:   stride
+Rounds:    2
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 1.182891 ms
+Batch 2 average: 1.186365 ms
+Batch 3 average: 1.178139 ms
+Batch 4 average: 1.185174 ms
+Batch 5 average: 1.181276 ms
+Median reduction time: 1.182891 ms
+
+Version:   shuffle
+Rounds:    2
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 1.178160 ms
+Batch 2 average: 1.181474 ms
+Batch 3 average: 1.181249 ms
+Batch 4 average: 1.181239 ms
+Batch 5 average: 1.176985 ms
+Median reduction time: 1.181239 ms
+
+Stride median time:  1.182891 ms
+Shuffle median time: 1.181239 ms
+Shuffle speedup (stride / shuffle): 1.001399x
+
+========== N = 67108864, max_blocks = 1024 ==========
+Version:   stride
+Rounds:    3
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 1.182887 ms
+Batch 2 average: 1.184430 ms
+Batch 3 average: 1.190137 ms
+Batch 4 average: 1.211077 ms
+Batch 5 average: 1.280184 ms
+Median reduction time: 1.190137 ms
+
+Version:   shuffle
+Rounds:    3
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 1.248539 ms
+Batch 2 average: 1.185690 ms
+Batch 3 average: 1.181686 ms
+Batch 4 average: 1.179197 ms
+Batch 5 average: 1.184528 ms
+Median reduction time: 1.184528 ms
+
+Stride median time:  1.190137 ms
+Shuffle median time: 1.184528 ms
+Shuffle speedup (stride / shuffle): 1.004735x
+
+========== N = 67108864, max_blocks = 4096 ==========
+Version:   stride
+Rounds:    3
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 1.185877 ms
+Batch 2 average: 1.180180 ms
+Batch 3 average: 1.186082 ms
+Batch 4 average: 1.180044 ms
+Batch 5 average: 1.181672 ms
+Median reduction time: 1.181672 ms
+
+Version:   shuffle
+Rounds:    3
+CPU sum:   -26.000000
+GPU sum:   -26.000000
+Abs error: 0.000000e+00
+Result:    PASS
+Batch 1 average: 1.192527 ms
+Batch 2 average: 1.209259 ms
+Batch 3 average: 1.182464 ms
+Batch 4 average: 1.184277 ms
+Batch 5 average: 1.183743 ms
+Median reduction time: 1.184277 ms
+
+Stride median time:  1.181672 ms
+Shuffle median time: 1.184277 ms
+Shuffle speedup (stride / shuffle): 0.997801x
+
+Total tests:  36
+Passed tests: 36
+Failed tests: 0
+All tests: PASS
